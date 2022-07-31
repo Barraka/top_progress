@@ -1,0 +1,67 @@
+
+.box {
+    border:5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 4px;
+    margin-left: 2em;
+    padding:1em;
+
+    /* 4 different types of box positioning: /*
+    display:inline-flex;
+    display:block;
+    display:flex;
+    display:inline;
+
+    /* When you want the size of the box to be fixed, and all else is placed inside: */
+    box-sizing: border-box;
+
+    /* When having a display:flex */
+    /* 3 values are: grow - shrink - basis */
+    display:flex;
+    flex-direction: column; /*by default, row. Also exists: row-reverse, column-reverse */
+    /* flex-direction defines the main axis and the cross axis */
+    flex:initial; /* = flex: 0 1 auto ==> default */
+    flex:auto; /* = flex: 1 1 auto */
+    flex:none; /* =flex: 0 0 auto */
+    flex: 1; /* =flex: 1 1 0 */
+
+    justify-content: space-between; /* = spaces the elements equally */
+    justify-content: center;
+    /* justify = main axis, align-items = cross axis */
+    /* also, flex-start, flex-end, space-around, space-evenly */
+
+    align-items: center;
+    /*default = stretch, also flex-start, and flex-end */
+
+    gap: 8px; /* similar to margin */
+
+    /*when we define a flex container, its children become flex items */
+
+    flex-flow: row wrap; /* shorthand for direction and wrap */
+
+
+  }
+
+  .par1 {
+    color:turquoise;
+  }
+  div {
+    padding: 30px;
+    text-align: center;
+    /*When you want to center the element*/
+    margin: 0 auto;
+    color: #EEEEEE;
+  }
+  
+  .introduction {
+    background-color: #548CA8;
+  }
+  
+  .main-content {
+    background-color: #476072;
+  }
+  
+  .contact-us {
+    background-color: #334257;
+  }
