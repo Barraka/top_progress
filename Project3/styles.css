@@ -1,0 +1,40 @@
+span {
+    display: flex;
+    justify-content: center;
+  /*align-items:flex-stretch;*/
+  border: 2px magenta dotted;
+  
+  }
+  button {
+  flex:auto;
+  border: 1px rgb(9, 21, 189) solid;
+  align-items:flex-stretch;
+  }
+
+  /* Sytles for the form */
+
+  .example {
+    display:flex;    
+    justify-content: center;
+    border: 1px rgb(39, 158, 23) solid;
+    
+  }
+
+  .wrapper {    
+    width:400px;
+    border: 3px rgb(92, 22, 80) solid;
+      
+  }
+
+  .txt {
+    border: 1px rgb(9, 21, 189) solid;
+    width:50px;
+    flex:auto;
+  }
+  .btn {
+    flex:1;
+    justify-content: center;
+    border: 1px rgb(39, 158, 23) solid;
+    
+  }
+  

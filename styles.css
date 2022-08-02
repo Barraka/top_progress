@@ -32,7 +32,7 @@
     /* also, flex-start, flex-end, space-around, space-evenly */
 
     align-items: center;
-    /*default = stretch, also flex-start, and flex-end */
+    /*default = stretch, also flex-start, and flex-end. And baseline. */
 
     gap: 8px; /* similar to margin */
 
@@ -40,7 +40,13 @@
 
     flex-flow: row wrap; /* shorthand for direction and wrap */
 
+  }
 
+  /* remove dots from lists */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
   .par1 {
